@@ -1,0 +1,45 @@
+
+.hero {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  flex: 1;
+  background-image: url(/assets/header_bg.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+/* hero text area styling */
+
+.hero-subtitle {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 0;
+}
+.hero-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.button-group a .fa-solid {
+  margin-right: 10px;
+}
+.button-group {
+  margin-top: 2rem;
+}
+.button-group .button {
+  margin-right: 1.5rem;
+}
+.button-group .cta-button {
+  background: none;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+}
+/* hero img */
+
+.hero-img img {
+  width: 100%;
+}
