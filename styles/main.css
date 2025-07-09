@@ -3,6 +3,10 @@ body {
   width: 1430px;
   margin: 0 auto;
 }
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
 /* color */
 .primary-color {
   color: #fd6e0a;
@@ -26,6 +30,16 @@ body {
 }
 .mb {
   margin-bottom: 130px !important;
+}
+/* text format */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 /* button  */
 .button {
@@ -131,7 +145,6 @@ header {
 /* about section styling */
 .about {
   box-sizing: border-box;
-  width: 1140px;
   margin: 0 auto;
   border-radius: 15px;
   padding: 100px 130px;
@@ -153,4 +166,31 @@ header {
   font-size: 20px;
   font-weight: 600;
   color: #474747;
+}
+/* skills section styling */
+.skills {
+  display: flex;
+  gap: 2rem;
+  margin-top: 80px;
+}
+.skill {
+  padding: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  transition: all 0.5s ease-out;
+  border: 1px solid transparent;
+}
+.skill:hover {
+  border: #fd6e0a 1px solid;
+  scale: 1.1;
+}
+.skill > .skill-title,
+.skill-description {
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+}
+.skill .skill-title {
+  font-size: 20px;
+  font-weight: 700;
 }
