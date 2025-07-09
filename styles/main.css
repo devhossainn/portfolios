@@ -1,0 +1,156 @@
+/* shared style */
+body {
+  width: 1430px;
+  margin: 0 auto;
+}
+/* color */
+.primary-color {
+  color: #fd6e0a;
+}
+.dark-1 {
+  color: #181818;
+}
+.dark-2 {
+  color: #474747;
+}
+.dark-3 {
+  color: #757575;
+}
+
+.primary-bg {
+  background-color: #fff8f3;
+}
+/* margin */
+.mt {
+  margin-top: 130px !important;
+}
+.mb {
+  margin-bottom: 130px !important;
+}
+/* button  */
+.button {
+  padding: 16px 32px;
+  color: #fff;
+  background-color: #fd6e0a;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* section title and description */
+.section-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+.section-description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+}
+/* navigation bar styling */
+header {
+  padding: 0 50px;
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  font-size: 48px;
+  font-weight: 700;
+}
+.navbar ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+.navbar .list-item,
+.nav-item {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* hero section styling start */
+.hero {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  flex: 1;
+  background-image: url(/assets/header_bg.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+/* hero text area styling */
+
+.hero-subtitle {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 0;
+}
+.hero-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.button-group a .fa-solid {
+  margin-right: 10px;
+}
+.button-group {
+  margin-top: 2rem;
+}
+.button-group .button {
+  margin-right: 1.5rem;
+}
+.button-group .cta-button {
+  background: none;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+}
+/* hero img */
+
+.hero-img img {
+  width: 100%;
+}
+/* about section styling */
+.about {
+  box-sizing: border-box;
+  width: 1140px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 100px 130px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.about-item .item-title {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #757575;
+}
+.about-item .item-description {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #474747;
+}
