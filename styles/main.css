@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /* shared style */
 body {
   width: 1430px;
@@ -259,17 +263,14 @@ header {
   margin-right: 1rem;
   cursor: pointer;
 }
-.form {
-  max-width: 100%;
-  overflow: hidden;
-}
+
 .footer-form form > input[type="text"],
 .footer-form form > input[type="email"],
 .footer-form form > textarea {
   display: block;
-  width: 100%;
   margin: 1.5rem 0;
-  padding: 18px 30px;
+  width: 100%;
+  padding: 30px;
   color: #757575;
   background-color: #fff;
   border-radius: 10px;
@@ -277,14 +278,21 @@ header {
   outline: none;
   resize: none;
 }
+/* form {
+  width: 100%;
+} */
 
 input[type="text"],
 input[type="email"] {
-  height: 40px;
+  height: 60px;
 }
 textarea {
   height: 100px;
 }
 input[type="submit"] {
   margin-top: 16px;
+}
+.footer-description,
+.footer-form {
+  width: 50%;
 }
