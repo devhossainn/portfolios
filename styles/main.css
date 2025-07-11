@@ -129,7 +129,7 @@ header {
   align-items: center;
   gap: 3rem;
   flex: 1;
-  background-image: url(/assets/header_bg.png);
+  background-image: url(../assets/header_bg.png);
   background-position: right bottom;
   background-repeat: no-repeat;
 }
